@@ -1,0 +1,143 @@
+# External gems
+# See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - "/vendor/"
+
+# Site settings
+title: Edinburgh University Quiz Society
+subtitle: "Dedicated to organising, promoting and participating in quizzes at every  level"
+email: uoequizsoc@gmail.com
+name: Edinburgh University Quiz Society
+description: >
+  A simple yet classy theme for your Jekyll website or blog.
+# Base URL of site (i.e. /blog). It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://uoequizsoc.github.io" # the base hostname & protocol for your site
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: false
+highlightjs_theme: "monokai-sublime"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus comments
+# disqus_shortname: bencentra
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+#
+# Example:
+#
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+#     desc: Follow me on Twitter            # Description to display as link title, etc
+#     share: true                           # Include in the "Share" section of posts
+social:
+  - name: Facebook Page
+    icon: facebook_page
+    username: Facebook Page
+    url: https://www.facebook.com/UoEQuizSoc/
+    desc: Like us on Facebook for updates
+    share: true
+  - name: Facebook Group
+    icon: facebook_group
+    username: Facebook Group
+    url: https://www.facebook.com/groups/eduniquizsoc
+    desc: Join the Edinburgh quizzer community
+    share: true
+
+# Lists member roles
+members:
+  - name: Eve Davies
+    role: President
+    year: 3
+    course: Lingusitics
+    quote: I love quizzing, but I suck a quizzing
+    image: /assets/profile_images/eve.jpg
+  - name: Connor Lilliott
+    role: Secretary
+    year: 3
+    course: Cognitive Science
+    quote: Fish or Fowl?
+    image: /assets/profile_images/connor.jpg
+  - name: Owen Fuller
+    role: Social Secretary
+    year: 3
+    course: Mathematics
+    image: /assets/profile_images/owen.jpg
+    quote: Big beats are best beats
+  - name: Matt Booth
+    role: Buzzer Quiz Officer
+    year: 4
+    course: Mathematics
+    quote: I will never log off
+    image: /assets/profile_images/matt.jpg
+  - name: Tom Keight
+    role: Social Secretary
+    year: 2
+    course: Psychology
+    quote: Attempting to realise my dream of becoming a poker pro
+    image: /assets/profile_images/tom.jpg
+  - name: Natascha Dámaso
+    role: Publicity Officer
+    year: 3
+    course: Immunology
+    quote: Bad at filling pancakes, good at eating them
+    image: /assets/profile_images/nat.jpg
+  - name: Freddie Bawden
+    role: Webmaster
+    year: 3
+    course: Informatics
+    quote: accidentially yells answer in excitement
+    image: /assets/profile_images/freddie.jpg
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "/assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "/assets/logo.png"
+
+    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:bencentra/centrarium.com.git"

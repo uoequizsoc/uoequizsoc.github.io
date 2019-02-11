@@ -1,0 +1,53 @@
+<style>
+  .profile-name {
+  font-size: 14pt;
+  margin-top: 0.25em;
+  margin-bottom: 0.125em;
+  }
+
+.profile-details{
+  margin-bottom: 0.125em;
+  }
+  .commiteegrid {
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+  .commiteegrid div {
+    max-width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .commiteegrid div img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+</style>
+<h2>
+  Our Committee
+</h2>
+<div class="commiteegrid">
+  {% for member in site.members %}
+      <div>
+        <img src="{{member.image}}"/>
+        <span class="profile-name">{{member.name}}</span>
+        <span class="profile-details">{{member.role}}</span>
+        <span class="profile-details">{{member.year}}{% if member.year == 1 %}<sup>st</sup>{% elsif member.year == 2 %}<sup>nd</sup>{% elsif member.year == 3 %}<sup>rd</sup>{% else %}<sup>th</sup>{% endif %}
+          year {{member.course}}</span>
+        <span class="profile-details"><i>"{{member.quote}}"</i></span>
+      </div>
+  {% endfor %}
+</div>
