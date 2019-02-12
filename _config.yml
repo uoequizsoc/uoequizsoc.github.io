@@ -14,7 +14,7 @@ subtitle: "Dedicated to organising, promoting and participating in quizzes at ev
 email: uoequizsoc@gmail.com
 name: Edinburgh University Quiz Society
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  Dedicated to organising, promoting and participating in quizzes at every  level
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -71,13 +71,13 @@ descriptions:
 #     share: true                           # Include in the "Share" section of posts
 social:
   - name: Facebook Page
-    icon: facebook_page
+    icon: facebook
     username: Facebook Page
     url: https://www.facebook.com/UoEQuizSoc/
     desc: Like us on Facebook for updates
     share: true
   - name: Facebook Group
-    icon: facebook_group
+    icon: facebook
     username: Facebook Group
     url: https://www.facebook.com/groups/eduniquizsoc
     desc: Join the Edinburgh quizzer community
