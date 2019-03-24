@@ -24,3 +24,5 @@ Naming the actress/actor from their filmograhpy; Who was in Family Guy, Black Sw
 
 If you want to see changes at Quiz Soc, make sure to come to our AGM; details can be found on our Facebook page! We look
 forward to quizzing with you next year!
+
+![March Quiz Results](/assets/blog_images/march_results.png)
