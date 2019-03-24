@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "January Pub Quiz"
-date:   2019-01-30
+title:  "March Pub Quiz"
+date:   2019-03-24
 author: Freddie Bawden
 categories: Updates
 tags:	update pub-quiz
