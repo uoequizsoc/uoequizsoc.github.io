@@ -5,7 +5,8 @@ permalink: /about/
 ---
 
 Edinburgh University Quiz Society was founded to promote quizzing across the University, organise
-events for every skill level as well as regularly participate in quizzes in the city.
+events for every skill level as well as regularly participate in quizzes in the city. All society activities are run
+under [our constitution](https://github.com/uoequizsoc/uoequizsoc.github.io/raw/master/EUQS-Const.pdf).
 
 We host regular [events](/events/) throughout the academic year: we host tournament style
 buzzer quizzes weekly to test your quizzing metal and more laid back monthly pub quizzes
