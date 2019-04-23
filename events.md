@@ -7,10 +7,10 @@ permalink: /events/
 ## Pub Quiz ##
 
 Each month, we our monthly Pub Quiz. Over 6 rounds teams of up to 6 people compete for prizes and glory.
-Anyone can attend, costing only £1 per team with prizes up for grabs for first, second, third places.
+Anyone can attend, costing only £1 per person with prizes up for grabs for first, second, third places; as well as for best team name.
+
 As our rounds are written by society members we enjoy a variety of different subjects at our quizzes. Along with the
-typical topics: General Knowledge, Music and Geography and History, we also have some more unusual rounds; these can be anything:
-Food and Drink, Bad Movie Descriptions or even Dinosaur Anatomy.
+typical topics: General Knowledge, Music and Geography and History, we also have some more unusual rounds; these can be anything: Food and Drink, Bad Movie Descriptions or even Dinosaur Anatomy.
 
 
 ## Buzzer Quiz ##
