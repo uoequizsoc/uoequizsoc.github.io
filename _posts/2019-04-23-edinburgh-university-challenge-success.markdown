@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Edinburgh "
+title:  "Nail-biting University Challenge Final: Edinburgh vs St Edmund Hall"
 date:   2019-04-23
 author: Freddie Bawden
 categories: Updates
@@ -15,4 +15,4 @@ If you want to try out tournament quizzing come along to our "Buzzer Quiz" sessi
 You can catch up on the season of University Challenge on BBC IPlayer.
 
 ------
-_Header sourced from the _ [BBC](https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-48014971_)
+_Header sourced from the_ [BBC](https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-48014971_)
